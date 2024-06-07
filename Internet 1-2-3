@@ -43,4 +43,6 @@ L'interfaccia tra il processo e la rete é un interfaccia software detta socket
 Il Socket rappresenta il luogo di scambio di informazioni tra il livello di Applicazione e il livello di Trasporto, viene indicato con un numero di porta
 I numeri di porta sono 2 elevato alla 16 e si dividono in: 0-1023 noti, 1024-49151 controllati da IANA ma registrabili, 49152-65536 non registrabili
 LIVELLO DI TRASPORTO
+Mette a disposizione un comunicazione logica tra processi applicativi di 2 host diversi, fornisce inoltre 2 servizi diversi UDP e TCP
+  UDP: Protocollo di trasporto semplice, non orientato alla connessione, non affidabile, opera in multicast
 
