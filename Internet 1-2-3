@@ -1,3 +1,4 @@
+Internet 1
 L'Internet é un sistema di reti di calcolatori (interconnessione di singole reti di calcolatori privati, aziendali, pubblici o di ricerca).
 Gli Host o End System sono i vari dispositivi che si possono connettere all'internet.
 Gli Host sono connessi tramite Communication link, tramite Packet switch i Dati vengono inviati dopo essere divisi in pacchetti con un Header
@@ -22,6 +23,6 @@ Per traspostare pacchetti nella rete esistono 2 approcci fondamentali:
              Elaborazione (tempo per esaminare l'Header del pacchetto), Trasmissione (tempo di trasmissione dei pacchetti), Propagazione (trasferimento dei dati sulla linea di comunicazione)
      Generalmente i ritardi sono neell'ordine dei millisecondi o microsecondi
      Ritardo End-to-End (Ritardo totale dalla sorgente al destinatario)
-Throughput : 
+Throughput :  É la velocità in bps alla quale un host sta ricevendo una risorsa.
  
- 
+Internet 2 
