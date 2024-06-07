@@ -35,3 +35,10 @@ Incapsulamento dei dati a livello di trasporto che genera un header per dare ind
 Tipi di architetture: Proprietaria (esclusiva al produttore e diversa da altre architetture), Standard de iure (basata su standard pubblici, ad esempio il modello OSI),
                       Standard de facto (basata su specifiche pubbliche e poi diventata di grande diffusione, ad esempio il modello TCP/IP)
 LIVELLO DI APPLICAZIONE
+programmi che sono eseguiti dai sistemi periferici e che comunicano tra loro via rete,  I programmi hanno l’obiettivo di definire l’architettura dell’applicazione basandosi su 2 architetture
+  Client-server (server sempre attivo che risponde ai client, i data center sono gruppi di host che agglomerati aumentano le capacità di rispondere a molteplici client)
+  Peer-to-Peer (formata da coppie arbitrarie di peer che comunicano direttamente tra loro, scalabile ed economicamente conveniente)
+Protocollo a livello di Applicazione definisce come i processi di un’applicazione si scambiano i messaggi
+L'interfaccia tra il processo e la rete é un interfaccia software detta socket
+Il Socket rappresenta il luogo di scambio di informazioni tra il livello di Applicazione e il livello di Trasporto, viene indicato con un numero di porta
+I numeri di porta sono 2 elevato alla 16 e si dividono in: 
