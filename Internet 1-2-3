@@ -41,4 +41,6 @@ programmi che sono eseguiti dai sistemi periferici e che comunicano tra loro via
 Protocollo a livello di Applicazione definisce come i processi di un’applicazione si scambiano i messaggi
 L'interfaccia tra il processo e la rete é un interfaccia software detta socket
 Il Socket rappresenta il luogo di scambio di informazioni tra il livello di Applicazione e il livello di Trasporto, viene indicato con un numero di porta
-I numeri di porta sono 2 elevato alla 16 e si dividono in: 
+I numeri di porta sono 2 elevato alla 16 e si dividono in: 0-1023 noti, 1024-49151 controllati da IANA ma registrabili, 49152-65536 non registrabili
+LIVELLO DI TRASPORTO
+
