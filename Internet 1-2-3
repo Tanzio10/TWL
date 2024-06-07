@@ -18,4 +18,10 @@ Per traspostare pacchetti nella rete esistono 2 approcci fondamentali:
    TDm (time-division multiplexing) ogni circuito occupa l'intera banda per un periodo di tempo
  - Commutazione di Pacchetto i dati vengono inviati tramite pacchetti trattati indipendenetemente dalla rete che quindi puó seguire strade idipendenti
    Trasmissione Store-and-Forward : il Commutatore riceve l'intero pacchetto prima di inviarlo
-   Ritardi
+   Ritardi : Accodamento (il percorso che deve seguire é momentaneamente occupato), Perdita di Pacchetto (il pacchetto viene eliminato dal buffer se é pieno), 
+             Elaborazione (tempo per esaminare l'Header del pacchetto), Trasmissione (tempo di trasmissione dei pacchetti), Propagazione (trasferimento dei dati sulla linea di comunicazione)
+     Generalmente i ritardi sono neell'ordine dei millisecondi o microsecondi
+     Ritardo End-to-End (Ritardo totale dalla sorgente al destinatario)
+Throughput : 
+ 
+ 
