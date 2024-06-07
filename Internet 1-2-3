@@ -26,3 +26,12 @@ Per traspostare pacchetti nella rete esistono 2 approcci fondamentali:
 Throughput :  É la velocità in bps alla quale un host sta ricevendo una risorsa.
  
 Internet 2 
+Decomposizione Modulare é un processo di modularizzazione dell'internet per poter piú facilmente risolvere problemi modificando le singole parti
+Architettura a Livelli consiste in una stratificazione dei protocolli tramite la pila di protocolli (protocol stack) formata da 5 livelli
+   Applicazione (sede delle applicazioni di rete e dei relativi protocolli), Transporto (trasferisce i messaggi del livello di applicazione tra punti periferici gestiti dalle applicazioni)
+   Rete (si occupa di trasferire i pacchetti a livello di rete da un host a un altro), Collegamento Dati (si occupa del trasferimento dei pacchetti da un nodo a quello successivo sul percorso del pacchetto)
+   Fisico (trasferisce i singoli bit del frame da un nodo a quello successivo)
+Incapsulamento dei dati a livello di trasporto che genera un header per dare indicazioni nei vari step del trasporto dati
+Tipi di architetture: Proprietaria (esclusiva al produttore e diversa da altre architetture), Standard de iure (basata su standard pubblici, ad esempio il modello OSI),
+                      Standard de facto (basata su specifiche pubbliche e poi diventata di grande diffusione, ad esempio il modello TCP/IP)
+LIVELLO DI APPLICAZIONE
