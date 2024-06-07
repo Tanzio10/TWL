@@ -7,3 +7,15 @@ Linee di Comunicazione possono essere formate da collegamenti Punto-a-Punto (dir
 Linee di Comunicazione possono essere anche fisiche permanenti o temporane.
 Linee di Comunicazione sono collegate tramite Mezzi Vincolanti (fisici : cavi coassiali, fibra ottica, doppino in rame intrecciato) o Mezzi non Vincolanti (canali radio terrestri o satellitari).
 Un Collegamento Logico implica un collegamento non diretto tra 2 nodi in comunicazione (altri nodi prima del nodo interessato).
+Ogni rete (ISP) può essere inoltre interconnessa tramine una gerarchia: ISP lv 1 (internazionale), ISP lv 2 (nazionale o regionale) ISP lv 3 (locali o d'accesso)
+IXP (Internet exchange point): un punto d’incontro dove più ISP possono fare peering tra di loro.
+Applicazioni Distribuite sono possibili servizi forniti dall'internet a vari livelli, i vari sistemi Host forniscono un interfaccia socket
+Definendo un insieme di regole per l'interazione tra sistemi creiamo un protocollo di comunicazione
+Due entità per compiere un azione comune condividono un Protocollo che svolgono insieme
+Per traspostare pacchetti nella rete esistono 2 approcci fondamentali:
+ - Commutazione di Circuito mantiene la connessione tra i 2 sistemi per tutta la durata del trasferimento dati, può essere eseguita tramite due multiplexing diversi:
+   FDM (frequency-division multiplexing) ogni circuito occupa continuamente una banda dedicata continuamente
+   TDm (time-division multiplexing) ogni circuito occupa l'intera banda per un periodo di tempo
+ - Commutazione di Pacchetto i dati vengono inviati tramite pacchetti trattati indipendenetemente dalla rete che quindi puó seguire strade idipendenti
+   Trasmissione Store-and-Forward : il Commutatore riceve l'intero pacchetto prima di inviarlo
+   Ritardi
