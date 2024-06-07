@@ -45,4 +45,6 @@ I numeri di porta sono 2 elevato alla 16 e si dividono in: 0-1023 noti, 1024-491
 LIVELLO DI TRASPORTO
 Mette a disposizione un comunicazione logica tra processi applicativi di 2 host diversi, fornisce inoltre 2 servizi diversi UDP e TCP
   UDP: Protocollo di trasporto semplice, non orientato alla connessione, non affidabile, opera in multicast
+  La struttura dell'UDP é formata da un numero di porta (di origne e di destinazione), la Lunghezza e il Checksum
+  
 
