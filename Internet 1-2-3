@@ -54,5 +54,10 @@ Mette a disposizione un comunicazione logica tra processi applicativi di 2 host 
 
 Internet 3
 LIVELLO DI RETE
-
+Lato Mittente (incapsula i dati in una datagramma e li manda al router), Lato Destinazione (riceve il datagramma da un router ed estrae il segmento), Nel Tragitto (il piano di controllo controlla il piano dei dati che inoltra i datagrammi da router a router)
+Inoltro (quando un router riceve un pacchetto, lo deve trasferire sull’appropriato collegamento di uscita)
+Instradamento (tramite algoritmi di routing stabilisce il percorso del datagramma)
+livello di rete di Internet fornisce solo il best-effort (col massimo impegno possibile)
+Protocollo Internet (IP): protocollo fondamentale del livello di rete
+  IPv4 :  
 
