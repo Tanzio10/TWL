@@ -46,5 +46,6 @@ LIVELLO DI TRASPORTO
 Mette a disposizione un comunicazione logica tra processi applicativi di 2 host diversi, fornisce inoltre 2 servizi diversi UDP e TCP
   UDP: Protocollo di trasporto semplice, non orientato alla connessione, non affidabile, opera in multicast
   La struttura dell'UDP é formata da un numero di porta (di origne e di destinazione), la Lunghezza e il Checksum
-  
+  Checksum : si sommano tutte le parole a 16 bit del segmento e poi si fa il complemento a 1
+  TCP: affidabile e orientato alla connessione in quanto effettua un handshake
 
