@@ -2,3 +2,16 @@ World Wide Web 1
 Cyberspace : l'insieme delle pagine web disponibili
 Ipertesto : struutura a più percorsi per raggiungere lo stesso obbiettivo, l'internet è un Ipermedia
 Pagine Web detta documento è costituita da oggetti (file HTML principale e diversi oggetti refernziati)
+W3C (world wide web Consortium) fondato nel 1994, con l'obbiettivo di sviluppare i protocolli e linee guida del web per farlo crescere
+W3C stabilisce : standard di linguaggio di markup, linguaggio per i fogli di stile, protocolli di comunicazione
+Principi Fondamentali : Accesso Universale, Universo Aperto (Web Accessibility Initiative (disabilità), Internationalization Activity (dovunque), Device Independence Activity (quasiasi momento e modo))
+Usabilità e Accessibilità
+Universo Aperto (Interoperabilità, Evolvibilità, Uso di Linguaggi Misti)
+Architettura di un Browser Web : Interfaccia Utente (interazione con l'utente), Interfaccia di Rete (Gestisce flusso dati e mantiene cache e cookies), Parser (analisi sintattica), Layout (Organizza e visualizza i contenuti della pagina)
+                                 Librerie di Supporto (forniscono le componenti software di supporto)
+URL (Uniform Resource Locator) : identificatore univoco delle risorse web
+  Schema tipico URL : Protocol, Hostname, Port, Path-and-file-name (protocol://hostname:port/path-and-file-name)
+  Componenti opzionali : Username:Password, Querystring, Fragment (protocol://username:password@hostname:port/path-and-file-name?querystring#fragment)
+
+
+World Wide Web 2
