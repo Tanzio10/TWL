@@ -18,6 +18,11 @@ Architettura Server : Nucleo (coordina e gestisce flusso dati), Traduzine (deter
 PROTOCOLLO HTTP : definisce la struttura dei messaggi e le modalita di scambio dei messaggi
 TCP e il principale protocollo di trasporto e l'handshake a 3 vie
 HTTP e un protocollo senza memoria di stato
-Connessioni non persistenti : 
+RTT (round trip time) : Tempo di andata e ritorno sulla connessione
+Dall'HTTP 1.1 sono usate connessioni persistenti che continuano a dinviare dati senza aspettare conferma
+i messaggi HTTP possono essere di richiesta e di risposta scritti in ASCII
+Richiesta : riga di richiesta ( il campo metodo, il campo URL, il campo versione di HTTP) righe di intestazione
+Risposta : 200 OK, 301 Moved Permanently, 400 Bad Request, 404 Not Found, 505 HTTP Version Not Supported
+Cookie : autenticare gli utenti
 
 World Wide Web 2
