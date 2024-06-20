@@ -53,6 +53,24 @@ HTML5 New Elements : <header> area di intestazione di una pagina
                      <nav> raggruppa elementi utili alla navigazione
                      <aside> contenuto collegato in maniera tangenziale al contenuto principale
 
+Esempio
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <title>Titolo<\title>
+        <meta charset="UTF-8">
+    <\head>
+    <body>
+    <nav id="navpri">
+        <p>Home | Didattica | Ricerca<\p>
+    <\nav>
+    <article>
+    <h1>titolo h1<\h1>
+    <p>Testo testo ...<\p>
+    <\article>
+    <\body>
+<\html>
+
 HTML 2
 LISTE
 
