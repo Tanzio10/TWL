@@ -32,4 +32,8 @@ HTTP/2 : multiplexing permette di inviare piu risposte e richieste simultaneamen
          Il framing divide i contenuti in piccole parti e da priorita a specifiche parti piu importanti
 Server Push : capacita di inviare piu risposte contemporaneamente
 HTTP/3 : Protocollo QUIC orientato alla connessione e sicuro ottimmizzato per ridurre la latenza, Trasferimento dati affidabile e con controllo del flusso e di congestione
+HTTPS : protocollo HTTP arricchito con TLS (transport layer security), servizi importanti (Riservatezza, Integrità del messaggio, Autenticazione)
+Criptografia : A chiave simmetrica (stessa chiave per i 2 host)
+               A chiave pubblica (chiave pubblica e chiave privata segreta)
+TLS . usa Chiave simmetrica (sicurezza durante la sessione) e Chiave asimmetrica (scambio sicuro chiavi, verifica server)
 
