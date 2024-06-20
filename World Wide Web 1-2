@@ -26,3 +26,10 @@ Risposta : 200 OK, 301 Moved Permanently, 400 Bad Request, 404 Not Found, 505 HT
 Cookie : autenticare gli utenti
 
 World Wide Web 2
+Web Cache (Server Proxy) : svolge il ruolo del server con una propria memoria per limitare il traffico e riddure i tempi di risposta
+GET condizionale è un meccanismo dell’HTTP che permette alla cache di verificare se i suoi oggetti sono aggiornati
+HTTP/2 : multiplexing permette di inviare piu risposte e richieste simultaneamente su un singolo TCP, risolve inoltre l'HOL Blocking grazie al Framing
+         Il framing divide i contenuti in piccole parti e da priorita a specifiche parti piu importanti
+Server Push : capacita di inviare piu risposte contemporaneamente
+HTTP/3 : Protocollo QUIC orientato alla connessione e sicuro ottimmizzato per ridurre la latenza, Trasferimento dati affidabile e con controllo del flusso e di congestione
+
