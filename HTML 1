@@ -1,3 +1,4 @@
+HTML 1
 TAG
 Tag è un contenitore di informazioni/dati
 Tag si distingue in Tag di apertura ("<....>"), Tag di Chiusura ("</.....>") e Tag Vuoto usato per terminologie e funzioni specifiche
@@ -35,5 +36,24 @@ Style : Il tag <style>.....</style> va incluso nell'header della pagina, tra i t
 Style : serve per indicare attributi come colore, font, background, ecc..
 
 ATTRIBUTI SEMANTICI
+ID : identificatore unico di ogni singolo elemento
+CLASS : ogni elemento può essere classificato e può avere più classi
+
+Elemento di tipo Blocco (Block) : va a capo di seguito all'elemento precedente
+Elemento di tipo Linea (Inline) : appare tipicamente dentro un elemento di tipo blocco e può contenere altri Inline ma non altri Block
+Elementi B o L sono costituiti : Content(B), Padding, Border, Margin
+Elemento Divisione (Div) : tipo blocco, raggruppa più elementi in un unico segmento
+Elemento Intervallo (Span) : tipo linea, raggruppa più elementi in un unico segmento
+
+Struttura con Div : id (definisce elemento unico nella pagina), class (definisce stile serie di elementi con caratteristiche comuni)
+HTML5 New Elements : <header> area di intestazione di una pagina
+                     <footer> area a piè di pagina
+                     <article> area a contenuto autosufficiente
+                     <section> area tematicamente omogeneaù
+                     <nav> raggruppa elementi utili alla navigazione
+                     <aside> contenuto collegato in maniera tangenziale al contenuto principale
+
+HTML 2
+LISTE
 
 
