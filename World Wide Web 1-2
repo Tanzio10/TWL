@@ -37,3 +37,4 @@ Criptografia : A chiave simmetrica (stessa chiave per i 2 host)
                A chiave pubblica (chiave pubblica e chiave privata segreta)
 TLS . usa Chiave simmetrica (sicurezza durante la sessione) e Chiave asimmetrica (scambio sicuro chiavi, verifica server)
 
+
