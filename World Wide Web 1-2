@@ -12,6 +12,12 @@ Architettura di un Browser Web : Interfaccia Utente (interazione con l'utente), 
 URL (Uniform Resource Locator) : identificatore univoco delle risorse web
   Schema tipico URL : Protocol, Hostname, Port, Path-and-file-name (protocol://hostname:port/path-and-file-name)
   Componenti opzionali : Username:Password, Querystring, Fragment (protocol://username:password@hostname:port/path-and-file-name?querystring#fragment)
-
+Funzionamento di un Browser Web : l'URL e spedito all'interfaccia di rete, che stabilisce una connessione, successivamente riceve i file richiesti
+Architettura Server : Nucleo (coordina e gestisce flusso dati), Traduzine (determinazione e localizzazione delle informazioni), Controllo accesso (verifica dell’identità dell’utente)
+                      Tipo di contenuto (individuazione degli attributi MIME dell'oggetto), Risposta, Tracciamento
+PROTOCOLLO HTTP : definisce la struttura dei messaggi e le modalita di scambio dei messaggi
+TCP e il principale protocollo di trasporto e l'handshake a 3 vie
+HTTP e un protocollo senza memoria di stato
+Connessioni non persistenti : 
 
 World Wide Web 2
