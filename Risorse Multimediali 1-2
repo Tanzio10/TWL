@@ -27,3 +27,7 @@ Grafica vettoriale : descrizione matematica di una collezione di oggetti (SVG)
 
 Risorse Multimediali 2
 Audio : il processo di digitalizzazione e ascolto del suono di dice ADC (analog to digital) e DAC (digital to analog)
+Segnale audio rappresentato da questa funzione nel tempo : Ampiezza A = x(t)
+segnale sinusoidale : 𝑦 𝑡 = 𝐴𝑠𝑖𝑛(2𝜋𝑓𝑡 + 𝜑) indica il numero di ripetizioni della funzione per unità di tempo
+onde periodiche sono la somma di più onde sinusoidali => Fourier
+La trasformata di Fourier consente di calcolare le diverse componenti delle onde sinusoidali di un segnale => da segnale nel tempo a frequenze
