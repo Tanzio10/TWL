@@ -1,2 +1,26 @@
 Risorse Multimediali 1
 Digitalizzazione : processo di conversione dall'analogico al digitale (da volori continui a volori digitali, comporta una perdita di informazioni (accettabile e non percepibile)
+Testi Alfanumerici costituiti da caratteri astratti appartenenti ad un insieme finito detto alfabeto
+Legge di Corrispondenza : bit interpretabili come caratteri interi (da caratteri astratti a codici binari)
+ASCII : codici a 7 bit (0-127), primi 32 caratteri di controllo, Extended ASCII 8 bit
+Unicode sistema di codifica che assegna numeri univoci (UTF-8)
+Dimensione del testo : dimensione (bit) = N(carattere) x L(bit/carattere)
+per essere visualizzato ogni carattere astratto deve essere associato ad un glifo (memorizzato ad un immagine raster o vettoriale)
+Famaglie di caratteri : definitte dalla forma o motivo del typefaces
+la forma base può essere alterata e trasformata (dimensione [punti misurati con 1/72 di 2.54 cm], larghezza, spessore, inclinazione o postura del tratto)
+Mesotipografia : spaziatura (spazio orizzontale tra le lettere), crenatura (spazio tra coppie specifiche di lettere)
+Linee di testo : spazio tra parole, paragonabile ad una "i", giustezza (lunghezza righe di testo)
+Interlinea : spazio verticale tra le linee
+Allineamento del Testo : a destra o a sinistra lo spazio tra le parole sarà lo stesso
+Giustificazione del Testo : entrambi i lati saranno allineati però lo spazio tra le parole varierà
+Immagini : digitalizzazione dell'immagine tramite 2 processi Campionamento (suddivisione in una griglia di celle quadrate tanto più fitta tanto migliore la risoluzione)
+           Quantizzazione (ogni pixel assume un valore discreto di colore facendo una media per i colori dentro la casella)
+Immagini Monocromatiche il valore indica l'intensità di grigio
+RGB (256x256x256 di rosso, verde, blu) CMY (ciano, magenta, giallo) CMYK (ciano, magenta, giallo, nero) 
+HSL particolarmente orientato alla vista umana (tonalita, saturazione, luminosità) YUV (luminosità e crominanza)
+Indexed Color : compressione di quantizzazione vettoriale (CLUT o Palette)
+Color Lookup Table : valore associato a ciascun pixel di colore
+Dimensione (numero di pixel logici), Risoluzione (dimensione del mezzo di visualizzazione)
+Profondità del colore : 1 bianchi,neri, 4/8 monocromatico, 8/24/32 colori
+spazio grafica raster : dimensione (pixel) x profondità (bit/pixel) = spazio (bit)
+Grafica vettoriale
