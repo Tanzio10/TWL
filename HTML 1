@@ -72,6 +72,10 @@ Esempio
 <\html>
 
 HTML 2
-LISTE
+LISTE (ordinate, non ordinate, di definizione)
+Ordinate : <ol type="I/a"> .. <li>..</li> .. </ol>, tramite l'attributo start="" posso far partire la lista da un numero specifico, con value="" do un valore specifico
+                                                    reversed inverte l'ordine
+Non Ordinate : <ul> .. <li>..</li> .. </ul>
+
 
 
