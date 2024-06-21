@@ -83,7 +83,8 @@ TABELLE
 indicata con <table>....</table>
 tr viene usato per indicare le righe
 td per indicare ciascuna cella di ogni riga ed è annidato dentro tr
-th viene usato per le intestazioni di righe o colonne, con scope="col/row"
+th viene usato per le intestazioni di righe o colonne, con scope="col/row", con colspan="n" indichiamo quante colonne occupa la casella, stessa cosa con rowspan
+
 
 
 
