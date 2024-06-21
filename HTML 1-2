@@ -76,6 +76,14 @@ LISTE (ordinate, non ordinate, di definizione)
 Ordinate : <ol type="I/a"> .. <li>..</li> .. </ol>, tramite l'attributo start="" posso far partire la lista da un numero specifico, con value="" do un valore specifico
                                                     reversed inverte l'ordine
 Non Ordinate : <ul style="list-style-type:...."> .. <li>..</li> .. </ul>, elenco a punti o quadrati, ecc non numericamente ordinato
+Di Definizione : <dl> .. <dt>..</dt><dd>..</dd> .. </dl>, dt = termine da definire, dd = definizione termine
+Le liste possono essere annidate
+
+TABELLE
+indicata con <table>....</table>
+tr viene usato per indicare le righe
+td per indicare ciascuna cella di ogni riga ed è annidato dentro tr
+th viene usato per le intestazioni di righe o colonne, con scope="col/row"
 
 
 
