@@ -93,6 +93,8 @@ dentro colgroup si puo trovare col per indicare il colore e span per indicare il
 
 Collegamenti ipertestuali : <a href="URL">URL name</a>, quando il percorso indica la home page di un sito si chiama riferimento assoluto
                                                         il riferimento relativo indica invece una parte specifica della pagina
+con l'elemento <base ref=""> dentro <head> posso usare un riferimento relativo come assoluto
+con l'attributo target="_blank" dentro <a href="" target="_blank"> si apre la pagina in un altra finestra
 
 
 
