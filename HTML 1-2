@@ -95,6 +95,12 @@ Collegamenti ipertestuali : <a href="URL">URL name</a>, quando il percorso indic
                                                         il riferimento relativo indica invece una parte specifica della pagina
 con l'elemento <base ref=""> dentro <head> posso usare un riferimento relativo come assoluto
 con l'attributo target="_blank" dentro <a href="" target="_blank"> si apre la pagina in un altra finestra
+con <a href="#..">..</a> e id=.. si possono fare di collegamenti a varie sezioni della pagina per pagine molto lunghe
+l'attributo download nel tag <a> indica lo scaricare del collegamento
+l'attributo rel specifica la relazione tra i 2 documenti ee va nel tag <a>
+gli attributi dentro href="mailto:/tel:" fanno cio che indicano
+
+
 
 
 
