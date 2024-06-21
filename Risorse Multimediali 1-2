@@ -31,3 +31,9 @@ Segnale audio rappresentato da questa funzione nel tempo : Ampiezza A = x(t)
 segnale sinusoidale : 𝑦 𝑡 = 𝐴𝑠𝑖𝑛(2𝜋𝑓𝑡 + 𝜑) indica il numero di ripetizioni della funzione per unità di tempo
 onde periodiche sono la somma di più onde sinusoidali => Fourier
 La trasformata di Fourier consente di calcolare le diverse componenti delle onde sinusoidali di un segnale => da segnale nel tempo a frequenze
+Spettrogramma : rappresentazione tempo-frequenza di un audio digitale
+Digitalizzazione del suono : Campionamento (discretizzazione del segnale analogico nel tempo) teorema di Nyquist–Shannon indica che la frequenza di campionamento deve essere più del doppio della frequenza del segnale
+                             altrimenti avviene l'Aliasing
+                             Quantizzazione (ogni numero reale è sostituito con un'approssimazione da un insieme finito di valori discreti) l'errore in questo processo viene chiamato rumore
+                             Codifica (formato in cui il flusso viene salvato)
+Video : 
