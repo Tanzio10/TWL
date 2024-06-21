@@ -84,6 +84,15 @@ indicata con <table>....</table>
 tr viene usato per indicare le righe
 td per indicare ciascuna cella di ogni riga ed è annidato dentro tr
 th viene usato per le intestazioni di righe o colonne, con scope="col/row", con colspan="n" indichiamo quante colonne occupa la casella, stessa cosa con rowspan
+<caption> viene usato per inserire un titoolo alla tabella </caption> quindi è dentro table
+Tabelle a molte righe : thead contiene tr e th di intestazione
+                        tbody contiene tr e td con i dati
+                        tfoot contine td riassuntiva
+Le tabelle si possono annidare
+dentro colgroup si puo trovare col per indicare il colore e span per indicare il numero di colonne da colorare
+
+Collegamenti ipertestuali : <a href="URL">URL name</a>, quando il percorso indica la home page di un sito si chiama riferimento assoluto
+                                                        il riferimento relativo indica invece una parte specifica della pagina
 
 
 
