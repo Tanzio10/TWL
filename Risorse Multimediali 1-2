@@ -24,3 +24,6 @@ Dimensione (numero di pixel logici), Risoluzione (dimensione del mezzo di visual
 Profondità del colore : 1 bianchi,neri, 4/8 monocromatico, 8/24/32 colori
 spazio grafica raster : dimensione (pixel) x profondità (bit/pixel) = spazio (bit)
 Grafica vettoriale : descrizione matematica di una collezione di oggetti (SVG)
+
+Risorse Multimediali 2
+Audio : il processo di digitalizzazione e ascolto del suono di dice ADC (analog to digital) e DAC (digital to analog)
