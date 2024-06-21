@@ -36,4 +36,13 @@ Digitalizzazione del suono : Campionamento (discretizzazione del segnale analogi
                              altrimenti avviene l'Aliasing
                              Quantizzazione (ogni numero reale è sostituito con un'approssimazione da un insieme finito di valori discreti) l'errore in questo processo viene chiamato rumore
                              Codifica (formato in cui il flusso viene salvato)
-Video : 
+Video : Il video analogico è campionato (discretizzato) sia nel tempo sia nello spazio, formato da fotogrammi (frequenza dei fotogrammi)
+Struttura interna di un video digitale : Dimensione logica, Profondità del colore, Rapporto d’aspetto del frame, Rapporto d’aspetto dei pixel
+Dimensioni : Spazio (bit) = dimensione logica del frame x profondità del colore x frame rate x durata del video (s)
+Codifica inter frame : ciascun fotogramma viene confrontato con quello di riferimento e vengono codificati solo i pixel modificati rispetto al fotogramma di riferimento
+Codifica intra frame: le tecniche di compressione dati sono applicate ad ogni fotogramma indipendentemente dagli altri frame del video
+Compressione dei dati : Lossless (senza perdite di informazione) Lossy (con perdita di informazione)
+LZW è un metodo a sostituzione a dizionario dinamico, perché costruisce un dizionario dei dati
+RLC è un metodo a predizione di compressione lossless, ossia si basa sulla storia della sequenza dei dati
+Lossy : rimuovere l’informazione ridondante non percettibile dall'orecchio umano
+DCT : usa funzioni coseno reali per trasformare un segnale nel dominio del tempo in una rappresentazione nel dominio delle frequenze
