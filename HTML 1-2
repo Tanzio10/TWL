@@ -57,25 +57,26 @@ Esempio
 <!DOCTYPE html>
 <html lang="it">
     <head>
-        <title>Titolo<\title>
+        <title>Titolo</title>
         <meta charset="UTF-8">
-    <\head>
+    </head>
     <body>
     <nav id="navpri">
-        <p>Home | Didattica | Ricerca<\p>
-    <\nav>
+        <p>Home | Didattica | Ricerca</p>
+    </nav>
     <article>
-    <h1>titolo h1<\h1>
-    <p>Testo testo ...<\p>
-    <\article>
-    <\body>
-<\html>
+    <h1>titolo h1</h1>
+    <p>Testo testo ...</p>
+    </article>
+    </body>
+</html>
 
 HTML 2
 LISTE (ordinate, non ordinate, di definizione)
 Ordinate : <ol type="I/a"> .. <li>..</li> .. </ol>, tramite l'attributo start="" posso far partire la lista da un numero specifico, con value="" do un valore specifico
                                                     reversed inverte l'ordine
-Non Ordinate : <ul> .. <li>..</li> .. </ul>
+Non Ordinate : <ul style="list-style-type:...."> .. <li>..</li> .. </ul>, elenco a punti o quadrati, ecc non numericamente ordinato
+
 
 
 
