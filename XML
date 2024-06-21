@@ -1,0 +1,173 @@
+XML
+Lezione 11/2/24
+
+NOMI
+Nomi validi iniziano con:"_" o una lettera, non possono iniziare con un numero
+Nomi validi possono contenere:"_","-",".", lettere o cifre
+Nomi validi non iniziano con "xml"
+
+ATTRIBUTI
+Attributi hanno: un nome e un valore [es. nome=preferred, valore=true]
+Attributi possono essere: molteplici, singoli o mancanti
+Attributi possono essere contenuti in:"...." o '...'
+
+ESERCIZIO 1 (playlist musicale)
+<?xml version="1.0" encoding="utf-8"?>
+<playlist name="Preferiti">
+	<track id="t01" genre="rock">
+		<title>Anchor</title>
+		<artist>Skillet</artist>
+		<album>Victorious</album>
+		<file src="anchor.mp3">
+			<encoding>MP3</encoding>
+			<bitrate>160kbps</bitrate>
+		</file>
+		<year>2020</year>
+		<lenght>2'30''</lenght>
+	</track>
+    <track id="t02">
+		...
+	</track>
+</playlist>
+
+ENTITA'
+Entità fa riferimento ad un insieme di caratteri (un abbreviazione)
+Entità si indica con:"&nome-entità;"
+Entità predefinite:"&lt;=<","&gt;=>","&amp;=&","&quot;="" e "&apos;='"
+
+DICHIARAZIONE
+Dichiarazione è composta da: encoding e da standalone
+Dichiarazione non è obbligatoria ma serve per facilitare la lettura del documento
+Dichiarazione è sempre nella prima riga e parte nel primo carattere quando esiste
+
+COMMENTI
+Commenti sono inidcati con:"<!-- Questo è un commmento -->"
+Commenti non possono essere inseriti all'interno del markup
+
+Documento XML ben formato
+1. ogni tag di inizio ha un corrispettivo tag di fine
+2. i valori degli attributi sono delimitati da apici o doppi apici
+3. un elemento non può avere due attributi con lo stesso nome
+4. gli elementi sono correttamente annidati
+5. c'è esattamente un "elemento radice"
+
+ESEMPIO 1 (Address)
+<?xml version="1.0" encoding="utf-8"?>
+<address-book>
+	<entry>
+		<name>Jack Smith</name>
+		<tel>513-555-3465</tel>
+		<email address='jsmith@email.com'></email>
+	</entry>
+	<entry>
+		<name>John Doe</name>
+		<address>
+			<street>34 Fountain Square Plaza</street>
+			<region>Cincinnati, OH</region>
+			<postal-code>45202</postal-code>
+			<country>US</country>
+		</address>
+		<tel>513-555-8889</tel>
+		<tel>513-555-7098</tel>
+		<email address='jdoe@email.com'></email>
+	</entry>
+</address-book>
+
+ESERCIZIO 2 (Albero Alfabetico)
+<A>
+	<B>
+		<C></C>
+		<D></D>
+	</B>
+	<E>
+		<F>
+			<G></G>
+			<H></H>
+		</F>
+		<I>
+			<J></J>
+			<K></K>
+		</I>
+		<L>
+			<M></M>
+			<N>
+				<O></O>
+				<P></P>
+			</N>
+			<Q></Q>
+		</L>
+		<R>
+			<S></S>
+			<T></T>
+		</R>
+		<U>
+			<V></V>
+			<W></W>
+		</U>
+	</E>
+	<X>
+		<Y></Y>
+		<Z></Z>
+	</X>
+</A>
+
+
+Lezione 11/3/24
+
+DTD
+DTD è un file di testo che contiene oggetti utilizzabili in un file XML
+DTD Elementi : "<!ELEMENT nome_elemento contenuto_elemento>"
+  DTD Elemento vuoto  : "<!ELEMENT nome_elemento EMPTY>" = <email/> o <email></email>
+  DTD Elemento foglia : "<!ELEMENT nome_elemento (#PCDATA)>" = <name>Fabio</name>
+  DTD Elemento qualsiasi : "<!ELEMENT nome_el ANY>"
+  DTD Elemento pieno : "<!ELEMENT nome_el (expr)>"
+    il numero di elementi vengono indicati dagli indicatori di occorrenza da sostituire a expr:
+	   entry = 1 volta
+	   entry+ = 1 o più volte
+	   entry* = 0 o più volte
+	   entry? = 0 o 1 volta
+	entry va sostituito col contenuto e va messo in ordine con: , e |
+	
+ESERCIZIO 3 (DTD Address)
+<!ELEMENT address-book (entry+)>
+<!ELEMENT entry (name,address?,tel+,email*)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (street,region,postal-code,locality?,country)>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT email EMPTY>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT region (#PCDATA)>
+<!ELEMENT postal-code (#PCDATA)>
+<!ELEMENT locality (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ATTLIST email address CDATA #REQUIRED> 
+
+DICHIARAZIONE DEGLI ATTRIBUTI
+Dichiarazione usa questa forma :"<!ATTLIST nome_elemento nome_attributo tipo_attributo uso_attributo>"
+  Uso dell'attributo: #REQUIRED il valore dell'attributo deve essere inserito nel documento
+                      #IMPLIED l’attributo è opzionale; non va fornito un valore di default
+					  #FIXED 'val': il valore dell'attributo è sempre val
+					  'val' l'attributo, se omesso, ha il valore di default val
+  Tipo dell'attributo: CDATA: il valore dell'attributo è una sequenza di caratteri arbitraria
+                       IDREF: contiene il riferimento all’attributo ID di un elemento nel documento
+					   IDREFS: contiene riferimenti a più attributi ID di elementi nel documento
+					   ID: un identificatore univoco per l'attributo; il valore dell'attributo è un nome (e deve seguire le regole viste sui nomi XML) che deve
+                           essere unico nel documento (lo stesso valore non può essere assegnato a più elementi)
+					   NMTOKEN: name token, il valore dell'attributo è una parola senza spazi che può contenere lettere, numeri e i simboli '-', '_', '.' e ':'
+                       NMTOKENS: il valore dell’attributo è un elenco di nmtoken separati da spazi
+					  (n1 | n2 | … | nk): il valore dell'attributo deve essere uno fra i nmtoken n1, n2, …, nk
+					   ENTITY, ENTITIES, NOTATION: riferimenti a entità, elenco di riferimenti a entità separati da spazi e informazioni su formati interpretabili da applicazioni esterne (poco usati)
+					   
+ESERCIZIO 4 (DTD Playlist)
+<!ELEMENT playlist (track+)>
+<!ELEMENT track (title, artist+, album?, file, year)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT album (#PCDATA)>
+<!ELEMENT file (encoding, bitrate)>
+<!ELEMENT encoding (#PCDATA)>
+<!ELEMENT bitrate (#PCDATA)>
+<!ATTLIST track id ID #IMPLIED genre ( rock | pop | jazz | blues | other) 'other'>
+<!ATTLIST file src CDATA #REQUIRED>
+<!ATTLIST playlist name CDATA #REQUIRED>
+<!ELEMENT year (#PCDATA)>
