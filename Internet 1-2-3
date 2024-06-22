@@ -58,6 +58,9 @@ Lato Mittente (incapsula i dati in una datagramma e li manda al router), Lato De
 Inoltro (quando un router riceve un pacchetto, lo deve trasferire sull’appropriato collegamento di uscita)
 Instradamento (tramite algoritmi di routing stabilisce il percorso del datagramma)
 livello di rete di Internet fornisce solo il best-effort (col massimo impegno possibile)
-Protocollo Internet (IP): protocollo fondamentale del livello di rete
-  IPv4 :  
+Protocollo Internet (IP): protocollo fondamentale del livello di rete, gli idirizzi ip sono 2alla32, sono usualmente associati ad un interfaccia (router) che li collega a piu nodi quindi più ip
+CIDR è la strategia di assegnazione degli indirizzi ip
+NAT permette di assegnare ad una intera LAN un singolo ip lato WAN
+
+
 
