@@ -100,7 +100,7 @@ l'attributo download nel tag <a> indica lo scaricare del collegamento
 l'attributo rel specifica la relazione tra i 2 documenti ee va nel tag <a>
 gli attributi dentro href="mailto:/tel:" fanno cio che indicano
 
-HTML 2
+HTML 3
 Immagini : l'elemento img si usa per inserire immagini in HTML5 (vuoto, elemento inline), attributi src (specifica l'immagine), alt (descrizione testuale dell'immagine)
            width e height (stabiliscono le dimensioni) <img src="img.jpg" alt="Girl in a jacket" width="500" height="600">
 <figcaption> da una descrizione dalla foto è annidata dentro <figure> con <img>
