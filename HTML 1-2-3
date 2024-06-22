@@ -111,7 +111,9 @@ Moduli : <form>....</form> usati per raccogliere informazioni dall'utente (text 
 Metodo Get : usato quando i dati sono pochi
 Metodo Post : usati quando i dati sono molti e con informazioni sensibili
 Elementi modulo : Input di tipo testo (<input type="text">), Input di tipo password (<input type="password">),  Input di tipo invia (<input type="submit">)
-                  Pulsante (<input type="button">) 
+                  Pulsante (<input type="button">),  Textarea (<textarea>…</textarea>), Input di tipo radio (<input type="radio">), Input di tipo checkbox (<input type="checkbox">)
+Si usano gli elementi select e option per selezione di una opzione
+
 
 
 
