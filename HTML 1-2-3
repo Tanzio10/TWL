@@ -113,6 +113,26 @@ Metodo Post : usati quando i dati sono molti e con informazioni sensibili
 Elementi modulo : Input di tipo testo (<input type="text">), Input di tipo password (<input type="password">),  Input di tipo invia (<input type="submit">)
                   Pulsante (<input type="button">),  Textarea (<textarea>…</textarea>), Input di tipo radio (<input type="radio">), Input di tipo checkbox (<input type="checkbox">)
 Si usano gli elementi select e option per selezione di una opzione
+Selezione di un file da caricare sul server (<input type="file">)
+Input di tipo immagine (<input type="image">)
+Input di tipo email: <input type="email" name="email">
+Elemento fieldset: è usato per raggruppare più controlli
+Elemento legend: consente di assegnare una didascalia o un titolo ad un elemento fieldset, immediatamente dopo il tag di apertura di fieldset
+Reset (<input type="reset">)
+Hidden (<input type="hidden">)
+Attribuiti per l’elemento <input> : required, size, maxlength, pattern
+tramite <label> il testo dell'etichetta è associato direttamente all’input
+data <input type="date" name="data">
+ora <input type="time" name="ora">
+URL <input type="url" name="url">
+Parole chiave <input type="search" name="ric" placeholder="Introduci keyword">
+dati numerici <input type="number" name="numero" min="5" max="10" step="0.5">
+colore <input type="color" name="colore" value="#ffff00">
+intervallo <input type="range" name="valore" min="0" max="100">
+
+
+
+
 
 
 
