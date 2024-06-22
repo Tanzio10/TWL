@@ -100,7 +100,18 @@ l'attributo download nel tag <a> indica lo scaricare del collegamento
 l'attributo rel specifica la relazione tra i 2 documenti ee va nel tag <a>
 gli attributi dentro href="mailto:/tel:" fanno cio che indicano
 
-
+HTML 2
+Immagini : l'elemento img si usa per inserire immagini in HTML5 (vuoto, elemento inline), attributi src (specifica l'immagine), alt (descrizione testuale dell'immagine)
+           width e height (stabiliscono le dimensioni) <img src="img.jpg" alt="Girl in a jacket" width="500" height="600">
+<figcaption> da una descrizione dalla foto è annidata dentro <figure> con <img>
+nel tag <a href=".."><img ..></a> per creare un immagine collegamento
+si puo creare un collegamento anche solo con una parte specifica dell'immagine <img src="url" usemap="#nomemap">
+Moduli : <form>....</form> usati per raccogliere informazioni dall'utente (text imput,  password input, text area, radio buttons, checkboxes, drop down boxes, submit button e image button, file upload)
+         gli attributi di form (action, method, id, name)
+Metodo Get : usato quando i dati sono pochi
+Metodo Post : usati quando i dati sono molti e con informazioni sensibili
+Elementi modulo : Input di tipo testo (<input type="text">), Input di tipo password (<input type="password">),  Input di tipo invia (<input type="submit">)
+                  Pulsante (<input type="button">) 
 
 
 
