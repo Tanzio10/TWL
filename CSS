@@ -1,0 +1,7 @@
+Regole formate da un selettore (indica l'elemento che la regola affligge) e dichiarazione (specifica la regola)
+Dichiarazione sono divise in Proprieta e Valore, possono esserci piu coppie in una regola
+Tramite queste regole abbiamo un ampio raggio di personalizzazione
+Noi useremo CSS3 ultima versione retrocompatibile
+tag <style> dentro l'html metto le regole del css (per le cose veloci), tag <link> indico il percorso del file css con le regole
+
+Selettori (identificano gli elementi, anche piu selettori) 
