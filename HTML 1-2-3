@@ -301,3 +301,49 @@ Esercizio 5
 </html>
 
 Esercizio 6
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Esercizio 6</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <table border="1">
+        <caption><b>Orario Ipotetico</b></caption>
+        <tr>
+            <th></th>
+            <th>Lunedì</th>
+            <th>Martedì</th>
+            <th>Mercoledì</th>
+            <th>Giovedì</th>
+            <th>Venerdì</th>
+        </tr>
+        <tr>
+            <th>8-9</th>
+            <td rowspan="3">Italiano</td>
+            <td>Geografia</td>
+            <td>Educazione artistica</td>
+            <td colspan="2">Educazione Musicale</td>
+        </tr>
+        <tr>
+            <th>10-11</th>
+            <td rowspan="2">Scienze</td>
+            <td rowspan="2">Educazione Fisica</td>
+            <td colspan="2">Matematica</td>
+        </tr>
+        <tr>
+            <th>11-12</th>
+            <td colspan="2">Italiano</td>
+        </tr>
+        <tr>
+            <th>12-13</th>
+            <td>Storia</td>
+            <td>Matematica</td>
+            <td>Geografia</td>
+            <td colspan="2">Educazione tecnica</td>
+        </tr>
+    </table>
+</body>
+</html>
+
+Esercizio 7
