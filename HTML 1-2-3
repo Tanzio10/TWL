@@ -169,7 +169,77 @@ Esercizio 1
 </body>
 </html>
 
+Esercizio 2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Esercizio 2</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <p>According to the <cite><abbr title="Mozilla Developers Network">MDN</abbr> block quote page</cite>:</p>
+    <!-- Spazio tra l'inizio della frase e il bordo della pagina html presente anche nella correzione del prof -->
+    <p><blockquote>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block Quotation Element</em>) indicates that the enclosed text is an extended quotation.</blockquote></p>
+    <!-- sono presenti "" dato che è presente <q> nella frase successiva, elemento richiesto dall'esercizio presesnti anche nella coreezione del prof-->
+    <p>The quote element <code>&lt;q&gt;</code> is <q>intended for short quotations that don't require paragraph breaks.</q> <cite><abbr title="Mozilla Developers Network">MDN</abbr> q page.</cite></p>
+</body>
+</html>
 
+Esercizio 3
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Esercizio 3</title>
+    <meta charset="UTF-8">
+</head>
+<!-- il prof mette in posizioni diverse da quelle spiegate i nuovi elementi di html5 -->
+<body>
+    <header>
+        <nav id="nav1">
+            <a href="index.html">Home</a>
+            <a href="ricette.html">Ricette</a>
+            <a href="blog.html">Blog</a>
+        </nav>
+        <h1>Fagotti di uova e piselli</h1>
+        <hr>
+        <p><strong>Difficoltà</strong>: bassa</p>
+        <p><strong>Preparazione</strong>: 15 minuti</p>
+        <p><strong>Cottura</strong>: 45 minuti</p>
+        <hr>
+    </header>
+    <article>
+        <h2>Ingredienti per 4 persone</h2>
+        <ul>
+            <li>4 uova</li>
+            <li>400 grammi di piselli</li>
+            <li>1 carota</li>
+            <li>1/2 cipolla bianca</li>
+            <li>100 g di salsa di pomodoro</li>
+            <li>1 cucchiaio di prezzemolo tritato</li>
+            <li>1 cucchiaio di aceto di vino bianco</li>
+            <li>1 cucchiaio di olio extra vergine di oliva</li>
+            <li>sale e pepe</li>
+        </ul>
+        <h2>Preparazione</h2>
+        <ol>
+            <li>Mondate e lavate la carota e ...</li>
+            <li>Sgranate i piselli e ...</li>
+            <li>Sgusciate un uovo in una ciotola facendo attenzione di non rompere il tuorlo ...</li>
+            <li>Trasferite le uova nella padella con i piselli e fate cuocere per altri 5 minuti a fiamma bassa ...</li>
+        </ol>
+        <hr>
+    </article>
+    <footer>
+        <nav id="nav2">
+            <a href="privacy.html">Privacy</a>
+            <a href="cookie.html">Cookie</a>
+            <a href="copyright.html">Copyright</a>
+        </nav>
+    </footer>
+</body>
+</html>
+
+Esercizio 4
 
 
 
