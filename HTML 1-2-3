@@ -240,8 +240,40 @@ Esercizio 3
 </html>
 
 Esercizio 4
-
-
-
-
-
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Esercizio 4</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h2>Caratteri Speciali HTML</h2>
+    <table border="1">
+        <tr>
+            <!-- il prof usa <em> al posto di <i> -->
+            <th>Carattere Speciale</th>
+            <th>Entità HTML <i>(case sensitive)</i></th>
+            <th>Unicode <i>(decimale)</i></th>
+            <th>Nome o Significato</th>
+        </tr>
+        <tr>
+            <td>&laquo;</td>
+            <td>&amp;laquo;</td>
+            <td>&amp;#171;</td>
+            <td>virgolette sinistre in stile europeo</td>
+        </tr>
+        <tr>
+            <td>&amp;</td>
+            <td>&amp;amp;</td>
+            <td>&amp;#38;</td>
+            <td><i>e</i> commerciale</td>
+        </tr>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+        </tr>
+    </table>
+</body>
+</html>
