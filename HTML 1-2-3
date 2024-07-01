@@ -432,3 +432,147 @@ Esercizio 9
     </form>
 </body>
 </html>
+
+Esercizi 10
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Esercizio 10</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<form>
+		<p>
+			<label for="name">Name:</label>
+			<input type="text" name="name" id="name">
+		</p>
+		<p>
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email">
+		</p>
+		<p>
+			<label for="1">How did you hear about us?</label>
+			<select name="referrer" id="1">
+				<option value="google">Google</option>
+				<option value="friend">Friend</option>
+				<option value="advert">Advert</option>
+				<option value="other">Other</option>
+			</select>
+		</p>
+		<p>Would you visit again?</p>
+		<p>
+			<label for="yes">Yes</label>
+			<input type="radio" name="rating" id="yes" value="yes">
+			<label for="no">No</label>
+			<input type="radio" name="rating" id="no" value="no">
+			<label for="maybe">Maybe</label>
+			<input type="radio" name="rating" id="maybe" value="maybe">
+		</p>
+		<p><label for="comments">Comments:</label></p>
+		<p><textarea name="comments" rows="4" cols="40" id="comments"></textarea></p>
+		<p>
+			<label for="option-mail">Sign me up for email updates</label>
+			<input type="checkbox" name="subscribe" value="siem" id="option-mail" checked>
+		</p>
+		<p>
+			<input type="submit" value="Submit review"
+		</p>
+	</form>
+</body>
+</html>
+
+Esercizio 11
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Esercizio 11</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<form action="pay.php" method="post">
+		<fieldset>
+			<legend><strong>Contact information</strong></legend>
+			<p>
+				<ul>
+					<li><input type="radio" name="title" id="king">King</li>
+					<li><input type="radio" name="title" id="queen">Queen</li>
+					<li><input type="radio" name="title" id="joker">Joker</li>
+				</ul>
+			</p>
+			<p>
+				Name: <input type="text" name="name" required><br>
+				E-mail: <input type="email" name="email" required><br>
+				Password: <input type="password" name="password" required><br>
+			</p>
+		</fieldset>
+		<fieldset>
+			<legend><strong>Payment information</strong></legend>
+			<p>
+				Card type:
+				<select name="usercard" required>
+					<option value="vs">Visa</option>
+					<option value="ms">Mastercard</option>
+					<option value="am">American Express</option>
+				</select><br>
+				Card number: <input type="number" name="cardnumber" required><br>
+				Expiration date: <input type="data" name="expiration" required><br>
+			</p>
+		</fieldset>
+		<input type="submit" value="Validate the payment">
+	</form>
+</body>
+</html>
+
+Esercizio 12
+<!DOCTYPE html>
+<html lang="it">
+<head>
+	<title>Esercizio 12</title>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<form>
+		<fieldset>
+			<legend>Modulo nuovo ordine</legend>
+			<p>
+				<label for="a1">Nome:</label><input type="text" name="nome" id="a1">
+				<label for="a2">Indirizzo:</label><input type="text" name="indirizzo" id="a2">
+			</p>
+			<p>
+				<label for="a3">CAP:</label><input type="text" name="cap" id="a3">
+				<label for="a4">Città:</label><input type="text" name="città" id="a4">
+				Stato:<input type="text" name="stato" id="a5">
+			</p>
+			<p>
+				Codice personale:<input type="text" name="codpers" id="a6" size="8" maxlength="8" pattern="[0-9][8]">
+			</p>
+			<hr>
+			<p>
+				<label for="b1"><strong>Tipo di capo:</strong></label>
+				<select name="capo" id="b1">
+					<option value="capo1">Capo1</option>
+					<option value="capo2">Capo2</option>
+					<option value="capo3">Capo3</option>
+					<option value="capo4">Capo4</option>
+				</select>
+				<strong>Dimensione:</strong>
+				<label for="b2">XL</label><input type="radio" id="b2" value="xl" name="dim">
+				<label for="b3">L</label><input type="radio" id="b3" value="l" name="dim">
+				<label for="b4">M</label><input type="radio" id="b4" value="m" name="dim">
+				<label for="b5">S</label><input type="radio" id="b5" value="s" name="dim">
+			</p>
+			<p>
+				<label for="b6"><strong>Tipo di pagamento:</strong></label>
+				<select name="pagamento" id="b6">
+					<option value="contrassegno">Contrassegno</option>
+					<option value="bonifico">Bonifico</option>
+					<option value="carta di credito">Carta di credito</option>
+				</select>
+			</p>
+			<hr>
+			<input type="submit" name="submit" value="Invia Ordine">
+			<input type="reset" name="reset" value="Cancella">
+		</fieldset>
+	</form>
+</body>
+</html>
